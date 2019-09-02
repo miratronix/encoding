@@ -39,3 +39,9 @@ mapped := e.Encode(&someStructure)
 // Decode a map into a structure, using the 'json' struct tag
 err := e.Decode(someMap, &someStructure)
 ```
+
+## Generators
+Lingo ships with a basic message pack code generator. To use it, add the following generate comment to a file:
+```go
+//go:generate go run github.com/miratronix/lingo/generate/messagepack
+```
