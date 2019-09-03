@@ -2,7 +2,7 @@ package lingo
 
 import (
 	"bytes"
-	"github.com/vmihailenco/msgpack"
+	"github.com/miratronix/msgpack"
 )
 
 // messagePack defines a basic message pack encoder/decoder
